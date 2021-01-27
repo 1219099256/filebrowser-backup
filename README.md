@@ -1,6 +1,6 @@
-wget https://raw.githubusercontent.com/1219099256/filebrowser/master/filebrowser -P /usr/local/bin/
+wget https://raw.githubusercontent.com/1219099256/filebrowser-backup/master/filebrowser -P /usr/local/bin/
 
-wget https://raw.githubusercontent.com/1219099256/filebrowser/master/filebrowser.service -P /usr/local/bin/
+wget https://raw.githubusercontent.com/1219099256/filebrowser-backup/master/filebrowser.service -P /lib/systemd/system/filebrowser.service
 
 cd /usr/local/bin/filebrowser
 
