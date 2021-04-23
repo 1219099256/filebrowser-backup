@@ -1,4 +1,4 @@
-curl -fsSL https://raw.githubusercontent.com/filebrowser/get/master/get.sh | bash && wget https://raw.githubusercontent.com/1219099256/filebrowser-backup/master/filebrowser.service -P /lib/systemd/system/filebrowser.service && cd /usr/local/bin/filebrowser
+curl -fsSL https://raw.githubusercontent.com/filebrowser/get/master/get.sh | bash && wget https://raw.githubusercontent.com/1219099256/filebrowser-backup/master/filebrowser.service -P /lib/systemd/system/ && cd /usr/local/bin/
 
 创建配置数据库：filebrowser -d /etc/filebrowser.db config init
 
